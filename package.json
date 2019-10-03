@@ -4,7 +4,8 @@
   "description": "A simple package for Discord bot economy system",
   "main": "dist/index.js",
   "scripts": {
-    "test": "tslint --project ."
+    "test": "tslint --project .",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
