@@ -26,10 +26,19 @@
     "botdiscordeco"
   ],
   "author": "J-Dev team",
-  "maintainers": ["Hazmi35", "Riichi"],
+  "maintainers": [
+    "Hazmi35",
+    "Riichi"
+  ],
   "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/jDevxyz/discordeco/issues"
   },
-  "homepage": "https://github.com/jDevxyz/discordeco#readme"
+  "homepage": "https://github.com/jDevxyz/discordeco#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.9",
+    "tslint": "^5.20.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.6.3"
+  }
 }
