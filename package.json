@@ -2,7 +2,7 @@
   "name": "discordeco",
   "version": "0.0.1-SNAPSHOT",
   "description": "A simple package for Discord bot economy system",
-  "main": "dist/Main.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "tslint --project ."
   },
