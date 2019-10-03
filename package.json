@@ -27,8 +27,16 @@
   ],
   "author": "J-Dev team",
   "maintainers": [
-    "Hazmi35",
-    "Riichi"
+    {
+      "name": "HZMI",
+      "url": "https://hzmi.xyz",
+      "discordTag": "Hazmi35#1855"
+    },
+    {
+      "name": "Riichi",
+      "url": "FILL LATER",
+      "discordTag": "Riichi_Rusdiana#6815"
+    }
   ],
   "license": "AGPL-3.0",
   "bugs": {
