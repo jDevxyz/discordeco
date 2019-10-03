@@ -1,0 +1,35 @@
+{
+  "name": "discordeco",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "A simple package for Discord bot economy system",
+  "main": "dist/Main.js",
+  "scripts": {
+    "test": "tslint --project ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jDevxyz/discordeco.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordbot",
+    "economysystem",
+    "economy",
+    "system",
+    "discordeco",
+    "discordeco.js",
+    "eco",
+    "typescript",
+    "botdiscord",
+    "discordboteco",
+    "botdiscordeco"
+  ],
+  "author": "J-Dev team",
+  "maintainers": ["Hazmi35", "Riichi"],
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jDevxyz/discordeco/issues"
+  },
+  "homepage": "https://github.com/jDevxyz/discordeco#readme"
+}
