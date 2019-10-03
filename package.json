@@ -24,7 +24,8 @@
     "typescript",
     "botdiscord",
     "discordboteco",
-    "botdiscordeco"
+    "botdiscordeco",
+    "nodejs"
   ],
   "author": "J-Dev team",
   "maintainers": [
