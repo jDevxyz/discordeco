@@ -3,15 +3,29 @@
     "target": "esnext",
     "module": "commonjs",
     "outDir": "./dist",
+    "sourceRoot": "./src",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "declarationMap": true,
     "strict": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
     "alwaysStrict": true,
-    "allowJs": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "typeRoots": [
       "./node_modules/@types",
       "./src/typings/interfaces"
-    ],
-    "noImplicitAny": false
-  }
+    ]
+  },
+  "jsdoc": "docs",
+  "exclude": [
+    "./dist/*",
+    "./node_modules/*",
+  ],
+  "include": [
+    "./src/*.ts",
+    "./src/**/*.ts",
+    "./src/**/*.d.ts"
+  ]
 }
