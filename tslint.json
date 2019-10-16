@@ -17,5 +17,11 @@
       "object-literal-sort-keys": false,
       "radix": false,
       "no-console": false
+    },
+    "linterOptions": {
+      "exclude": [
+          "bin",
+          "src/*.d.ts"
+      ]
     }
   }  

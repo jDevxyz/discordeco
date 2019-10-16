@@ -10,7 +10,7 @@ const config = {
         exclude: /node_modules/
       },
       {
-        test: require.resolve('./package.json'),
+        test: require.resolve('../package.json'),
         type: 'javascript/auto',
         use: {
           loader: 'json-filter-loader',

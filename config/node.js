@@ -4,10 +4,10 @@ const baseconfig = require('./webpack.config.js')
 const path = require('path')
 
 module.exports = merge(baseconfig, {
-  entry: '../index.ts',
+  entry: './index.ts',
   target: 'node',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, '../dist'),
     filename: 'index.js',
     library: 'DiscordEco',
     libraryTarget: 'umd'

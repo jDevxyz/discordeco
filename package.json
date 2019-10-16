@@ -9,7 +9,7 @@
     "lint": "npm run gulp:lint -s",
     "tslint": "tslint --config ./tslint.json ./src/**/*.ts",
     "webpack": "webpack",
-    "webpack:production": "webpack --config config/node.js",
+    "webpack:production": "webpack --config config/node.js --mode production",
     "docs": "jsdoc2md --files ./src/**/*.ts --configure ./docs.json > ./docs/README.md",
     "build": "npm run tslint && npm run webpack:production",
     "mocha": "mocha",
